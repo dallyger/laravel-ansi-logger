@@ -1,0 +1,26 @@
+{
+    "name": "dallyger/laravel-ansi-logger",
+    "description": "Visual overview at a glance for Laravel logs in interactive shells.",
+    "keywords": [
+        "php",
+        "tail",
+        "laravel",
+        "logs"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dallyger\\AnsiLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vincent Neubauer",
+            "email": "v.neubauer@darlor.de"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    }
+}
